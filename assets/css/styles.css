@@ -1,0 +1,40 @@
+:root{
+    --color-bg-header:#FFFFFF;
+    --color-bg-body:#F0F2F5;
+    --color-hover:#E4E6E9;
+    --color-txt:#050505;
+    --color-h2:#696B6F;
+    --color-blue:#1B74E4;
+
+    --global-font: Helvetica, Arial, sans-serif;
+    --color-txt-userName:#050505;
+    --color-txt-atualizar:#65676b; /* 400 600 */
+    --opacity-shadow:#00000056;
+
+}
+a{
+    text-decoration: none;
+}
+*, html, body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* font */
+    font-family: var(--global-font);
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    font-size: 15px;
+}
+body{
+    width: 100%;
+    font-family: var(--global-font);
+}
+p{
+    font-family: var(--global-font);
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    color:var(--color-txt);
+    font-size: 15px;
+}
